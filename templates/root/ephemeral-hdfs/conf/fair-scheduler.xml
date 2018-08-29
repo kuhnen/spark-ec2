@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<allocations>
+  <queue name="dumps_classic_db_queue">
+    <minResources>10000 mb,0vcores</minResources>
+    <maxResources>90000 mb,12vcores</maxResources>
+    <maxRunningApps>50</maxRunningApps>
+    <maxAMShare>0.1</maxAMShare>
+    <weight>2.0</weight>
+    <schedulingPolicy>fair</schedulingPolicy>
+  </queue>
+
