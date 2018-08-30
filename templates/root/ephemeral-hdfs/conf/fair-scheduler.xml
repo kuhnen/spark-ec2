@@ -4,7 +4,7 @@
     <minResources>10000 mb,0vcores</minResources>
     <maxResources>9000000 mb,60vcores</maxResources>
     <maxRunningApps>50</maxRunningApps>
-    <maxAMShare>0.3</maxAMShare>
+    <maxAMShare>0.2</maxAMShare>
     <weight>2.0</weight>
     <schedulingPolicy>fair</schedulingPolicy>
   </queue>
